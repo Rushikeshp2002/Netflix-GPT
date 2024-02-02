@@ -94,7 +94,7 @@ const Login = () => {
           className="bg-gradient-to-t from-black"
         />
       </div>
-      <div className="absolute w-full h-screen bg-black drop-shadow-lg opacity-50 backdrop-blur-2xl"></div>
+      <div className="absolute w-full h-[116%] bg-black drop-shadow-lg opacity-50 backdrop-blur-2xl"></div>
       <form
         onSubmit={(e) => e.preventDefault()}
         className="w-[30%] absolute px-16 py-4 bg-black m-auto right-0 left-0 my-24 bg-opacity-70  rounded-md"

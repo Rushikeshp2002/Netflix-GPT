@@ -4,7 +4,7 @@ import { FiInfo } from "react-icons/fi";
 
 const VideoTitle = ({title,overview}) => {
     return (
-        <div className="pt-[22%] px-12 absolute w-full h-[90%] bg-gradient-to-tr from-black z-10">
+        <div className="pt-[22%] px-12 absolute w-full h-[100%] bg-gradient-to-tr from-black z-10">
             <h1 className="font-bold text-4xl text-white pt-20">{title}</h1>
             <p className="w-3/4 text-white">{overview}</p>
             <div className="flex mt-4">
