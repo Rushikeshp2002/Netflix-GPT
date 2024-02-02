@@ -15,4 +15,4 @@ export const API_OPTIONS = {
 
 export const cardImgURL = "https://image.tmdb.org/t/p/w780/";
 
-export const OPEN_AI_KEY = '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' ;
+export const OPEN_AI_KEY = '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' ;
