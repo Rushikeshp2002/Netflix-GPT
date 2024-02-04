@@ -10,7 +10,7 @@ const GptSearch = () => {
         <img
           src={bgImg}
           alt="bg"
-          className="bg-gradient-to-t from-black"
+          className="bg-gradient-to-t from-black md:h-auto h-screen object-cover"
         />
       </div>
       <div className="absolute  md:w-full md:h-screen bg-black drop-shadow-lg opacity-30 backdrop-blur-2xl -z-10"></div>

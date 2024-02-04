@@ -91,15 +91,15 @@ const Login = () => {
         <img
           src={bgImg}
           alt="bg"
-          className="bg-gradient-to-t from-black"
+          className="bg-gradient-to-t from-black md:h-auto h-screen object-cover"
         />
       </div>
-      <div className="absolute w-full h-[116%] bg-black drop-shadow-lg opacity-50 backdrop-blur-2xl"></div>
+      <div className="absolute w-full md:h-[116%] h-screen bg-black drop-shadow-lg opacity-50 backdrop-blur-2xl"></div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-[30%] absolute px-16 py-4 bg-black m-auto right-0 left-0 my-24 bg-opacity-70  rounded-md"
+        className="md:w-[30%] w-[90%] absolute md:px-16 px-10 md:py-4 bg-black m-auto right-0 left-0 md:my-24 my-36 bg-opacity-70  rounded-md"
       >
-        <h1 className="text-3xl font-semibold text-white py-10 pb-5">
+        <h1 className="md:text-3xl text-2xl font-semibold text-white py-10 pb-5">
           {isSignin ? "Sign In" : "Sign Up"}
         </h1>
         {!isSignin && (
@@ -135,7 +135,7 @@ const Login = () => {
               type="checkbox"
               className="w-4 h-4 border focus:ring-transparent outline-none "
             />
-            <p className="text-slate-300 text-xs mt-1 px-1">Remember Me</p>
+            <p className="text-slate-300 text-xs md:mt-1 px-1">Remember Me</p>
           </div>
           <p className="text-slate-300 text-xs mt-1">Need Help?</p>
         </div>
@@ -148,7 +148,7 @@ const Login = () => {
             {isSignin ? "Sign In Now" : "Sign Up Now"}
           </span>
         </p>
-        <p className="text-neutral-500 text-xs mb-36 w-4/5">
+        <p className="text-neutral-500 text-xs md:mb-36 mb-20  md:w-4/5">
           This page is protected by Google reCAPTCHA to ensure youre not a bot.{" "}
           <span className="text-blue-700">Learn more</span>
         </p>
