@@ -1,8 +1,8 @@
 <h3>Demo Video Link:- https://youtu.be/1vspyiAYX3s?si=Yxdf4iAjHoO8oBBJ</h3>
 <h3>Netlify Host Link:- https://netflix-gpt-rushikesh.netlify.app/</h3>
-<p>Dummy Login</p><br>
-<p>Login: Admin@gmail.com</p><br>
-<p>Password: Admin@123</p><br>
+<h3>Dummy Login</h3>
+Login: Admin@gmail.com <br>
+Password: Admin@123
 
 <h1>Features⚡</h1>
   <li>Login/Sign Up <br></li>
