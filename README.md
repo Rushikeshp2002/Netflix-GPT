@@ -8,9 +8,9 @@ Password: Admin@123
   <li>Login/Sign Up <br></li>
   <li>Sign In /Sign up Form <br></li>
   <li>redirect to Browse Page <br></li>
-<h3>Browse (after authentication) 🚀</h3>
+  <h3>Browse (after authentication) 🚀</h3>
   <li>Header </li>
-  <li>Main Movie </li><br>
+  <li>Main Movie </li>
   <li>Tailer in Background</li> 
   <li>Title & Description</li>
   <li>MovieSuggestions</li>
