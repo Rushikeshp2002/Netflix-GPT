@@ -1,5 +1,6 @@
 <h3>Demo Video Link:- https://youtu.be/1vspyiAYX3s?si=Yxdf4iAjHoO8oBBJ</h3>
 <h3>Netlify Host Link:- https://netflix-gpt-rushikesh.netlify.app/</h3>
+Note: The link could break sometimes, since OpenAi only provides 5 dollars worth free APO calls
 <h3>Dummy Login</h3>
 Login: Admin@gmail.com <br>
 Password: Admin@123
